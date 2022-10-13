@@ -34,3 +34,17 @@ body{
 }
 
 /* section "game_card */
+
+.bl_card img{
+    border-radius: 1rem;
+}
+
+/* section play_is_here */
+
+.presentation_play a{
+    color: rgb(9, 49, 209);
+}
+
+.play_img{
+    
+}
