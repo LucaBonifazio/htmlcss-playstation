@@ -1,10 +1,6 @@
 body{
     font-family: 'Montserrat', sans-serif;
-    background-color: aqua;
-}
-
-.navbar_top img{
-    width: 80px;
+    margin-top: 116px;
 }
 
 .btn_border{
@@ -12,3 +8,29 @@ body{
     border-radius: 10rem;
 }
 
+/* header */
+
+.navbar_top img{
+    width: 80px;
+}
+
+.fa-magnifying-glass{
+    color: black;
+}
+
+/* section game_look */
+
+.game_look{
+    background-image: url(../img/jumbo-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 600px;
+}
+
+.game_logo img{
+    max-width: 300px;
+}
+
+/* section "game_card */
