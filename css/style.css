@@ -3,7 +3,7 @@ body{
     margin-top: 116px;
 }
 
-/* .btn_border{
+.btn_border{
     padding: 3px;
     border-radius: 1rem;
     overflow: hidden;
@@ -11,9 +11,9 @@ body{
 }
 
 .btn_border:hover{
-    box-shadow: 10px 10px 10px 10px black inset;
-    box-shadow: 10px 10px 10px 10px black;
-} */
+    box-shadow: 5px 5px 5px 5px black inset;
+    box-shadow: 5px 5px 5px 5px black;
+}
 
 /* navbar */
 
