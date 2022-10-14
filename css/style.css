@@ -3,17 +3,11 @@ body{
     margin-top: 116px;
 }
 
-.btn_border{
-    padding: 3px;
-    border-radius: 1rem;
-    overflow: hidden;
-    transition: 1s;
+.btn_border:hover{
+    outline-color:rgb(254, 237, 1);
+    outline-style: outset;
 }
 
-.btn_border:hover{
-    box-shadow: 5px 5px 5px 5px black inset;
-    box-shadow: 5px 5px 5px 5px black;
-}
 
 /* navbar */
 
@@ -108,12 +102,30 @@ body{
     background-color: #161C3B;
 }
 
-/* section foot_link */
+/* section footer_link */
 
-.foot_link{
+.footer_link{
     background-color: #00439C;
+}
+
+.foot_list{
+    list-style-type: none;
 }
 
 .foot_globe{
     height: 30px;
 }
+
+.foot_globe:hover{
+    transform:scale(1.1)
+}
+
+.foot_link{
+    text-decoration: none;
+    color: white;
+}
+
+.foot_link:hover{
+    color: #04e5f1;
+}
+
