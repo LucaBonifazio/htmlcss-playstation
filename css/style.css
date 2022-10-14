@@ -3,34 +3,45 @@ body{
     margin-top: 116px;
 }
 
-.btn_border{
+/* .btn_border{
     border: 1px solid black;
     border-radius: 10rem;
-}
+} */
 
-/* header */
+/* navbar */
 
 .navbar_top img{
-    width: 80px;
+    height: 20px;
 }
 
 .fa-magnifying-glass{
     color: black;
 }
 
-/* section game_look */
-
-.game_look{
-    background-image: url(../img/jumbo-bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    color: white;
-    height: 600px;
+.dropdown {
+    position: static;
 }
 
-.game_logo img{
-    max-width: 300px;
+.dropdown-menu{
+    border: none;
+    border-radius: none;
+}
+
+.dropdown-menu.show{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 0;
+  width: 100%;
+}
+
+/* section game_look */
+
+.jumbo{
+    padding: 200px 0 50px ;
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-position: center;
 }
 
 /* section "game_card */
@@ -43,8 +54,4 @@ body{
 
 .presentation_play a{
     color: rgb(9, 49, 209);
-}
-
-.play_img{
-    
 }
