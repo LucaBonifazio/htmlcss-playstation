@@ -17,8 +17,9 @@ body{
 
 /* navbar */
 
-.logo_sony{
-    height: 20px;
+.logo_sony,
+.icon_lens{
+    height: 25px;
 }
 
 .dropdown {
@@ -38,7 +39,7 @@ body{
   width: 100%;
 }
 
-.nav-link.dropdown-toggle::after.show{
+.dropdown-toggle.show::after{
     transform: rotate(180deg);
 }
 
