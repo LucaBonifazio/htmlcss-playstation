@@ -3,18 +3,22 @@ body{
     margin-top: 116px;
 }
 
-.btn_border{
-    border-radius: 10rem;
+/* .btn_border{
+    padding: 3px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: 1s;
 }
+
+.btn_border:hover{
+    box-shadow: 10px 10px 10px 10px black inset;
+    box-shadow: 10px 10px 10px 10px black;
+} */
 
 /* navbar */
 
-.navbar_top img{
+.logo_sony{
     height: 20px;
-}
-
-.fa-magnifying-glass{
-    color: black;
 }
 
 .dropdown {
@@ -34,9 +38,9 @@ body{
   width: 100%;
 }
 
-/* .dropdown-toggle:active.show{
+.nav-link.dropdown-toggle::after.show{
     transform: rotate(180deg);
-} */
+}
 
 /* section jumbo */
 
@@ -64,23 +68,31 @@ body{
     transition: 1s;
 }
 
-.bl_card:active{
-    border: 3px solid blue;
+.bl_card.active{
+    border: 3px solid rgb(8, 152, 255);
 }
 
 .bl_card:hover{
-    border: 3px solid blue;
+    border: 3px solid rgb(8, 152, 255);
+    transform: translateY(-10px);
+}
+
+.bl_card_green:hover{
+    border: 3px solid rgb(20, 233, 5);
+    transform: translateY(-10px);
+}
+
+.bl_card_gold.active{
+    border: 3px solid rgb(237, 194, 39);
+}
+
+.bl_card_gold:hover{
+    border: 3px solid rgb(237, 194, 39);
     transform: translateY(-10px);
 }
 
 .bl_card img{
     border-radius: calc(1rem - 6px);
-}
-
-/* section play_is_here */
-
-.presentation_play a{
-    color: rgb(9, 49, 209);
 }
 
 /* section playstation_plus */
@@ -89,10 +101,18 @@ body{
     background-color: #BEBCBB;
 }
 
-
-
 /* section playstation_now */
 
 .playstation_now{
     background-color: #161C3B;
+}
+
+/* section foot_link */
+
+.foot_link{
+    background-color: #00439C;
+}
+
+.foot_globe{
+    height: 30px;
 }
