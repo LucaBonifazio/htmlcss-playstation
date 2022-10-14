@@ -3,10 +3,9 @@ body{
     margin-top: 116px;
 }
 
-/* .btn_border{
-    border: 1px solid black;
+.btn_border{
     border-radius: 10rem;
-} */
+}
 
 /* navbar */
 
@@ -35,7 +34,11 @@ body{
   width: 100%;
 }
 
-/* section game_look */
+/* .dropdown-toggle:active.show{
+    transform: rotate(180deg);
+} */
+
+/* section jumbo */
 
 .jumbo{
     padding: 200px 0 50px ;
@@ -44,14 +47,52 @@ body{
     background-position: center;
 }
 
+.jumbo_2{
+    padding: 100px 0 50px ;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
 /* section "game_card */
 
-.bl_card img{
+.bl_card{
+    padding: 3px;
+    border: 3px solid transparent;
     border-radius: 1rem;
+    overflow: hidden;
+    transition: 1s;
+}
+
+.bl_card:active{
+    border: 3px solid blue;
+}
+
+.bl_card:hover{
+    border: 3px solid blue;
+    transform: translateY(-10px);
+}
+
+.bl_card img{
+    border-radius: calc(1rem - 6px);
 }
 
 /* section play_is_here */
 
 .presentation_play a{
     color: rgb(9, 49, 209);
+}
+
+/* section playstation_plus */
+
+.playstation_plus{
+    background-color: #BEBCBB;
+}
+
+
+
+/* section playstation_now */
+
+.playstation_now{
+    background-color: #161C3B;
 }
