@@ -4,8 +4,12 @@ body{
 }
 
 .btn_border:hover{
-    outline-color:rgb(254, 237, 1);
+    outline-color:rgb(254, 187, 1);
     outline-style: outset;
+}
+
+.btn:hover{
+    transform: scale(1.1);
 }
 
 
@@ -35,6 +39,11 @@ body{
 
 .dropdown-toggle.show::after{
     transform: rotate(180deg);
+}
+
+.head_link:hover{
+    background-color: transparent;
+    color: #04e5f1;
 }
 
 /* section jumbo */
